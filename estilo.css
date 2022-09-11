@@ -1,0 +1,44 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand span {
+    color: gold;
+}
+
+.menu {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style: none;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
