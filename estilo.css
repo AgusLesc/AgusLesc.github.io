@@ -95,3 +95,20 @@ span {
     border: 3px solid gold;
     height: 520px;
 }
+
+.about {
+    display: grid;
+    grid-template-columns: repeat(10,2fr);
+    width: 100vw;
+    align-items: center;
+}
+
+.about img {
+    width: 100%;
+    grid-column: 1/5;
+}
+
+.about-info {
+    grid-column: 5/10;
+    padding: 3em;
+}
