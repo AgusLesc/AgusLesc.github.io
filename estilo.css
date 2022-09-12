@@ -130,79 +130,6 @@ span {
     margin-bottom: 1em;
 }
 
-.portafolio {
-    width: 100vw;
-    background-color: black;
-    color: white;
-}
-
-.portafolio-headings {
-    width: 100vw;
-    padding: 5em;
-}
-
-.portafolio-headings h2 {
-    font-size: 2.5em;
-}
-
-.portafolio .container {
-    width: 80vw;
-    height: 80vh;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-}
-
-.card {
-    width: 300px;
-    color: white;
-    height: 450px;
-    background-color: rgb(46, 43, 43);
-}
-
-.card__img {
-    width: 100px;
-    height: 150px;
-    background-image:url(2-original.png) ;
-    background-size: cover;
-}
-
-.card__title {
-    padding: 20px;
-}
-
-.card__proyects-links {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.card__proyects-links a{
-    color: gold;
-    text-decoration: none;
-}
-
-.card__proyects-links i{
-    font-size: 1.5em;
-}
-
-.card .proyect-details {
-    margin: 0 auto;
-    margin: 1em;
-    width: 70%;
-}
-
-.card .proyect-details a {
-    text-decoration: none;
-    color: black;
-}
-
-.proyect-details-content {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    margin-top: 1em;
-}
-
 .footer {
     display: flex;
     flex-direction: column;
@@ -227,4 +154,3 @@ span {
     width: 300px;
     margin-top: 1em;
 }
-
